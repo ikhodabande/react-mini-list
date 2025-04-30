@@ -49,3 +49,47 @@ const App = () => {
 };
 
 export default App;
+
+
+📐 Component Props
+
+Prop	Type	Required	Description
+items	T[]	✅	The full list of items to render
+height	number	✅	The height (in pixels) of the scrollable container
+itemHeight	number	✅	The fixed height (in pixels) of each list item
+renderItem	(item: T, index: number) => JSX.Element	✅	Function that renders a single item
+overscan	number	❌	Number of items to render above/below viewport (default: 5)
+💡 Example Use Case
+You’re building a dashboard or infinite scroll feed and need to display 10,000+ rows (e.g., users, logs, products). Without virtualization, React will render all 10,000 elements — causing slow initial loads and scroll jank. react-virtual-list solves this by keeping the DOM light and fast.
+
+🛠 Installation for Development
+To build or contribute:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/react-virtual-list.git
+cd react-virtual-list
+npm install
+npm run build
+You can then link it in a local project using:
+
+
+npm link
+cd ../your-app
+npm link react-virtual-list
+📃 License
+MIT © 2025 AmirMohammad Khodabande
+
+🌐 Links
+GitHub Repo
+
+
+
+
+
+
+
+
+
+
