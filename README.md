@@ -1,26 +1,24 @@
-# React Virtual List
+# React Mini List
 
 A lightweight, fast, and customizable virtualized list component for React. It helps render large lists efficiently by only rendering visible items, improving performance.
 
 ## 📦 Installation
 
-### Unscoped (example)
 ```bash
-npm install react-virtual-scrollbox
+npm install react-mini-list
 ```
 
-### Scoped (example)
-```bash
-npm install @yourname/react-virtual-list
-```
+or using Yarn:
 
-> Replace `@yourname` with your actual npm username if using a scoped package.
+```bash
+yarn add react-mini-list
+```
 
 ## 🚀 Usage Example
 
 ```tsx
 import React from 'react';
-import { VirtualList } from 'react-virtual-scrollbox'; // or '@yourname/react-virtual-list'
+import { VirtualList } from 'react-mini-list';
 
 const items = Array.from({ length: 10000 }, (_, i) => `Item ${i}`);
 
