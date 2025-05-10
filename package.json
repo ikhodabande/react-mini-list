@@ -1,1 +1,37 @@
-{"name":"react-mini-list","version":"1.0.1","description":"A lightweight React component for rendering large vertical lists using virtualization.","main":"dist/index.js","module":"dist/index.js","types":"dist/index.d.ts","files":["dist"],"scripts":{"build":"tsc"},"repository":{"type":"git","url":"https://github.com/your-username/react-virtual-list.git"},"keywords":["react","virtual","list","scroll","windowing","performance"],"author":"AmirMohammad Khodabande","license":"MIT","peerDependencies":{"react":"^18.0.0","react-dom":"^18.0.0"},"devDependencies":{"typescript":"^5.0.0","@types/react":"^18.0.0","@types/react-dom":"^18.0.0"}}
+{
+  "name": "react-mini-list",
+  "version": "1.0.1",
+  "description": "A lightweight React component for rendering large vertical lists using virtualization.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikhodabande/react-mini-list.git"
+  },
+  "keywords": [
+    "react",
+    "virtual",
+    "list",
+    "scroll",
+    "windowing",
+    "performance"
+  ],
+  "author": "AmirMohammad Khodabande",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
